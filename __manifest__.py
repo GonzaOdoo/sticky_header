@@ -37,7 +37,7 @@
     'depends': ['account', 'purchase', 'hr_expense', 'web'],
     'assets': {
         'web.assets_backend': [
-            ('after', 'web/static/src/views/list/list_renderer.xml', 'list_view_sticky_header_and_column/static/src/**/*'),
+            ('after', 'web/static/src/views/list/list_renderer.xml', 'sticky_header/static/src/**/*'),
         ],
     },
     'license': 'LGPL-3',
